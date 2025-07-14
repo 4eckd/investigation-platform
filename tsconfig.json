@@ -1,0 +1,37 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./packages/ui"
+    },
+    {
+      "path": "./packages/data-parser"
+    },
+    {
+      "path": "./apps/noahdummett-e2e"
+    },
+    {
+      "path": "./apps/noahdummett"
+    },
+    {
+      "path": "./apps/cayc-e2e"
+    },
+    {
+      "path": "./apps/cayc"
+    },
+    {
+      "path": "./apps/brignac-e2e"
+    },
+    {
+      "path": "./apps/brignac"
+    },
+    {
+      "path": "./apps/terrytgiang-e2e"
+    },
+    {
+      "path": "./apps/terrytgiang"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@investigation-platform/brignac-e2e",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "implicitDependencies": [
+      "@investigation-platform/brignac"
+    ]
+  }
+}

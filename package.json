@@ -1,0 +1,56 @@
+{
+  "name": "@investigation-platform/source",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "commit": "git-cz",
+    "lint": "nx run-many -t lint",
+    "test": "nx run-many -t test",
+    "build": "nx run-many -t build",
+    "format": "nx format:write",
+    "format:check": "nx format:check",
+    "prepare": "husky install",
+    "semantic-release": "semantic-release"
+  },
+  "private": true,
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@nx/devkit": "21.2.3",
+    "@nx/js": "21.2.3",
+    "@nx/next": "^21.2.3",
+    "@nx/playwright": "21.2.3",
+    "@playwright/test": "^1.36.0",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.3",
+    "@semantic-release/npm": "^12.0.2",
+    "@swc-node/register": "~1.9.1",
+    "@swc/cli": "~0.6.0",
+    "@swc/core": "~1.5.7",
+    "@swc/helpers": "~0.5.11",
+    "@types/node": "18.16.9",
+    "@types/react": "19.0.0",
+    "@types/react-dom": "19.0.0",
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^9.1.7",
+    "nx": "21.2.3",
+    "prettier": "^2.6.2",
+    "semantic-release": "^24.2.7",
+    "tslib": "^2.3.0",
+    "typescript": "~5.8.2"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "next": "~15.2.4",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  }
+}
